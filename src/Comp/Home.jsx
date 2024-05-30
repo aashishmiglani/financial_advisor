@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="md:w-1/2 hidden md:block">
                         <img
                             src="https://images.pexels.com/photos/6693655/pexels-photo-6693655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                            alt="Financial Advisors Image"
+                            alt=''
                             className="w-full h-full rounded-r-lg object-cover"
                         />
                     </div>

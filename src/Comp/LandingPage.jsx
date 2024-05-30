@@ -15,7 +15,7 @@ const LandingPage = () => {
                         <div className="relative">
                             <img
                                 src="https://images.pexels.com/photos/12955547/pexels-photo-12955547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="Image 1"
+                                alt=""
                                 className="w-full h-full rounded-lg object-cover"
                             />
                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 hover:opacity-70 transition-opacity duration-300 rounded-lg flex items-center justify-center">
@@ -27,7 +27,7 @@ const LandingPage = () => {
                         <div className="relative">
                             <img
                                 src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                alt="Image 2"
+                                alt=""
                                 className="w-full h-full rounded-lg object-cover"
                             />
                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 hover:opacity-70 transition-opacity duration-300 rounded-lg flex items-center justify-center">

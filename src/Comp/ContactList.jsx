@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { format } from 'date-fns';
 import { toast } from 'react-toastify'
-import { BASE_URL, commonHeaders } from '../BASE_URL';
+import { BASE_URL,  } from '../BASE_URL';
 import * as XLSX from 'xlsx';
 
 

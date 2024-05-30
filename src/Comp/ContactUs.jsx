@@ -1,27 +1,27 @@
-import React, { useState } from 'react'
-import { BASE_URL } from '../BASE_URL'
-import { toast } from 'react-toastify'
-import axios from 'axios'
+import React from 'react'
+// import { BASE_URL } from '../BASE_URL'
+// import { toast } from 'react-toastify'
+// import axios from 'axios'
 
 
 const ContactUs = () => {
-    const [conatct, setContact] = useState({})
+    // const [conatct, setContact] = useState({})
 
-    const handleChange = (e) => {
-        setContact({ ...conatct, [e.target.name]: e.target.value })
+    // const handleChange = (e) => {
+    //     setContact({ ...conatct, [e.target.name]: e.target.value })
 
-    }
+    // }
 
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        try {
-            const response = await axios.post(`${BASE_URL}/apis/v1/contact-form/`, conatct);
-            toast.success("Submited Succesfuly")
-        } catch (error) {
-            toast.error("Error")
-        }
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault()
+    //     try {
+    //         const response = await axios.post(`${BASE_URL}/apis/v1/contact-form/`, conatct);
+    //         toast.success("Submited Succesfuly")
+    //     } catch (error) {
+    //         toast.error("Error")
+    //     }
 
-    }
+    // }
 
     const email = "lokeshmiglani@yahoo.co.in";
     const phoneNumber = "+91 9815969798"

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
+// import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import { useUserContext } from '../Context/Context'
-import { BASE_URL, commonHeaders } from '../BASE_URL'
+import { BASE_URL } from '../BASE_URL'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import { useNavigate } from "react-router-dom";
@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
 
     const navigate = useNavigate();
-    const { isLoggedIn, setIsLoggedIn, userLoggedIn, setUserLoggedIn } = useUserContext();
+    const {  setIsLoggedIn,} = useUserContext();
 
     const [showPassword, setShowPassword] = useState(false)
     const [credentials, setCredentials] = useState({
